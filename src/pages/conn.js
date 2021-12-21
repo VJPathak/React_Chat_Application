@@ -26,7 +26,7 @@ conn.on('error', console.error.bind(console, 'connection error:'));
 module.exports = conn;*/
 const mongoose = require('mongoose');
 
-const URL = "mongodb+srv://vjpmongodb:vjpmongodb@cluster0.pakwt.mongodb.net/chatapp?retryWrites=true&w=majority";
+const URL = "url";
 
 const connectDB = async () => {
   await mongoose.connect(URI, {
