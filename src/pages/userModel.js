@@ -10,7 +10,7 @@ var userModel=mongoose.model('users',userSchema);
  
 module.exports = mongoose.model("Users", userModel);
 
-/* <!DOCTYPE html>
+<!DOCTYPE html>
 <html>
 <head>
   <title>fetch data from mongodb using node js and display in html</title>
@@ -60,4 +60,4 @@ module.exports = mongoose.model("Users", userModel);
 </tbody>
 </table>
 </body>
-</html> */
+</html> 
