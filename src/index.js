@@ -5,7 +5,7 @@ import App from './App';
 /* const MongoClient = require('mongodb').MongoClient;
 const assert = require('assert');
 // Connection URL
-const url = 'mongodb+srv://vjpmongodb:vjpmongodb@cluster0.pakwt.mongodb.net/chatapp?retryWrites=true&w=majority';
+const url = 'url';
 // Use connect method to connect to the Server
 MongoClient.connect(url, function(err, client) {
   assert.equal(null, err);
